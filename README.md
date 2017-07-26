@@ -1,2 +1,4 @@
 # find_jobs
 Practice selenium script that assists me in my job search
+
+chromescript.py is a simple little selenium script that I developed for practice with web testing.  Coincidentally it also minorly assists me in my hunt for fall internships, geared towards my methods of online job hunting.  After a user inputs their own email and password for indeed.com, as well as the desired job query, the script can be run to automatically login for the user, search for jobs based off of the given query regardless of location, and open all relevant links in new tabs.  This way I can look at detailed descriptions of each result one at a time, closing them out as I apply or decide it is not a good fit.  Additionally, the user can specify a number of pages, if that number is greater than one, the program will continue through the pages of results, opening more jobs until the specified page number is reached.  
